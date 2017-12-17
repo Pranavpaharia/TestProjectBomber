@@ -13,6 +13,8 @@ UCLASS()
 class MYPROJECT2_API ABomberGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
+		ABomberGameMode();
+		virtual void PostInitializeComponents() override;
 	
 	
 	
